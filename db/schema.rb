@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 20170918025817) do
 
   create_table "movies", force: :cascade do |t|
     t.string "title"
-    t.string "summary"
+    t.text "summary"
     t.integer "year"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

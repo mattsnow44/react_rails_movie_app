@@ -15,7 +15,7 @@ const Movie = ({ id, title, summary, year, deleteMovie }) => (
       </Card.Meta>
     </Card.Content>
     <Card.Content>
-      <Button color='blue'>Edit</Button>
+      <Button color='blue' onClick={() => alert("Edit Feature Coming Soon")}>Edit</Button>
       <Button color= 'red' onClick={() => deleteMovie(id)}>Delete</Button>
     </Card.Content>
   </Card>
